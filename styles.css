@@ -1,10 +1,42 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Reset styling */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+:root {
+    /* Primary colors */
+    --orange-500: #f4603e;
+    --blue-500: #1e1870;
+    --grey-700: #f4603e;
+    --white: #fff;
+
+    /* Secondary colors */
+    --orange-100: #feefec;
+    --blue-100: #f2f2ff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     max-width: 100%;
     width: 100%;
+}
+
+ul {
+    margin-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
