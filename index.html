@@ -4,50 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dune Africa | The Data Must Flow</title>
-    <link rel="shortcut icon" href="/" type="image/png">
+    <link rel="shortcut icon" href="./assets/icon/Dune-Icon.svg" type="image/png" sizes="32x32">
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="script.js"></script>
 </head>
 <body>
     <div class="body-container">
+        <!-- <div class="loader-container">
+            <div class="loader"></div>
+        </div>
+        <div class="annoucement">
+            <h1>Dune is Coming</h1>
+        </div> -->
         <header>
             <nav>
-                <img src="/" class="logo" alt="Header logo">
+                <img src="./assets\Primary\Dune-Logo-Primary.svg" class="logo" alt="Dune logo">
                 <ul class="main-nav-ul">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
+                    <li><a href="/">About Us</a></li>
                     <li><a href="/">Contact</a></li>
                 </ul>
                 <!-- Will replace the button with a dark or light icon and hide on mobile view -->
-                <button class="dark-btn">Dark</button>
-                <button class="hamburger"></button>
+                <!-- <button class="theme-switch">Dark</button> -->
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </nav>
         </header>
         
         <section class="mobile-nav">
             <div class="top">
-                <img src="/" class="logo" alt="Header logo">
+                <img src="/assets/Primary/Dune-Logo-Primary.svg" class="logo" alt="Dune logo">
                 
                 <button class="close-btn"></button>
             </div>
             
             <div class="bottom">
-                <ul class="main-nav-ul">
+                <ul class="mobile-nav-ul">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
+                    <li><a href="/">About Us</a></li>
                     <li><a href="/">Contact</a></li>
-                    <button class="dark-btn">Dark</button>
                 </ul>
             </div>
         </section>
 
         <section class="hero">
-            <div class="hero-container">
-                <video src="/"></video>
-                <div class="left-content"></div>
-                <div class="right-content"></div>
+            <div class="hero-container">    
+               <h1>The Data Must Flow</h1>
+               <p>Follow the data, Understand Web3. <br> On-chain analytics for Africa's crypto & Defi ecosystem.</p>
             </div>
         </section>
+        <marquee behavior="smooth" direction="left">The Data Must Flow</marquee>
+
+        <section class="vid-sec">
+            <div class="vid-sec-container">
+                Dune is Coming!
+
+                <video src="#"></video>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-container">
+                <div class="text-area">
+                    <h2>About us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, in illum? Quidem quod, consectetur architecto est, illum saepe rerum pariatur dicta vel laborum corporis expedita sint ea itaque deserunt accusamus quasi eligendi praesentium ad ratione odio reprehenderit magni atque dolore. Quas, nesciunt. Ab et cumque amet, fugit non tempora praesentium!</p>
+                </div>
+
+                <figure class="image-content">
+                    <img src="./assets/Dune Illustrations/Dune_01.png" alt="Dune Illustration">
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact-container" id="contact">
+                <div class="contact-left">
+                    <h2>Contact Us</h2>
+                    <p class="p-intro">If you have any questions or inquiries, feel free to reach out to us.</p>
+                    <form action="#" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@abc.com" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter message" required></textarea>
+                        <button type="submit" id="submit">Send Message</button>
+                    </form>
+
+                    <div class="location">
+                        <p><strong>Phone:</strong> +2348063742727</p>
+                        <p><strong>Email:</strong> duneafrica@gmail.com</p>
+                    </div>
+
+                    <div class="socials">
+                        <!-- <a href="#"><img src="./assets/logo-facebook.svg"></a>
+                        <a href="#"><img src="./assets/logo-instagram.svg"></a>
+                        <a href="#"><img src="./assets/logo-twitter.svg"></a>
+                        <a href="#"><img src="./assets/logo-telegram.svg"></a> -->
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <img src="./assets/Dune Illustrations/Dune_02.png" alt="Dune Illustration">
+                </div>
+            </div>
+        </section>
+          
+        <footer>
+            <div class="footer-container">
+                <p>&copy; 2025 Dune Africa. All rights reserved.</p>
+            </div>
+        </footer>
     </div>
     <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>

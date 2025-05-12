@@ -40,3 +40,83 @@ li {
 a {
     text-decoration: none;
 }
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.main-nav-ul {
+    display: none;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: none;
+    border: none;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 2.5px;
+    background-color: #000;
+    border-radius: 2px;
+}
+
+.hamburger:nth-child(2) {
+    height: 2.7px;
+}
+
+header nav, .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: .8rem 1rem;
+    position: relative;
+}
+
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+    inset: 0;
+    height: 100vh;
+    z-index: 99;
+    background: #fff;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mobile-nav-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: .8rem;
+    padding-right: .8rem;
+}
+
+.hero {
+    padding: .8rem 2rem;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+marquee {
+    font-family: "IBM Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
