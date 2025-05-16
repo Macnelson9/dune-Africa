@@ -152,7 +152,7 @@ header nav, .top {
     color: var(--blue-500);
 }
 
-.vid-sec, .about {
+.vid-sec{
     padding: .8rem 1rem;
 }
 
@@ -164,7 +164,13 @@ header nav, .top {
 }
 
 .vid-sec-container h2 {
+    color: var(--orange-500);
     animation: 3s ease 1s infinite bounce;
+}
+
+.about {
+    background: var(--blue-500);
+    padding: 2rem 1rem;
 }
 
 .about-container {
@@ -177,11 +183,98 @@ header nav, .top {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    color: var(--white);
 }
 
 .text-area p {
     line-height: 1.5rem;
 }
+
+.contact {
+    padding: 2rem 1rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--blue-500);
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    padding: .5rem;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 1px solid var(--border--border-08);
+}
+
+form textarea {
+    padding: .5rem;
+    border-radius: 7px;
+    border: 1px solid var(--border--border-08);
+}
+
+form input:focus, form textarea:focus {
+    outline: 1.5px solid var(--blue-500);
+}
+
+form input::placeholder, form textarea::placeholder {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: .8rem;
+}
+
+#submit {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1rem;
+    padding: .7rem;
+    border-radius: 5px;
+    background-color: var(--orange-500);
+    border: none;
+    color: var(--white);
+    margin-top: 10px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 2rem 1rem;
+    background: var(--blue-500);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: var(--white);
+}
+
 
 /* Animations */
 @keyframes bounce {
