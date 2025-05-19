@@ -1,6 +1,7 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+
 /* Reset styling */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -8,23 +9,23 @@
     padding: 0;
 }
 
-:root {
-    /* Primary colors */
-    --orange-500: #f4603e;
+
+ :root {  
+     /* Primary colors */
+     --orange-500: #f4603e;
     --blue-500: #1e1870;
     --grey-700: #f4603e;
-    --white: #fff;
+    --white: #fff; 
 
     /* Secondary colors */
     --orange-100: #feefec;
     --blue-100: #f2f2ff;
     --border--border-36: #0000005c;
     --border--border-13: #00000021;
-    --border--border-08: #00000014;
+    --border--border-08: #00000014; }
 
-}
 
-html {
+ html {
     font-family: "IBM Plex Sans", sans-serif;
     scroll-behavior: smooth;
 }
@@ -53,9 +54,9 @@ a {
 .logo {
     width: 80px;
     height: 40px;
-}
+} 
 
-.main-nav-ul {
+ .main-nav-ul {
     display: none;
 }
 
@@ -84,9 +85,9 @@ a {
     height: 2px;
     background-color: #1a1a1a;
     border-radius: 2px;
-}
+} 
 
-.close-btn span:nth-child(1) {
+ .close-btn span:nth-child(1) {
     transform: translate3d(0, 2px, 0) rotate(45deg);
 }
 
@@ -275,8 +276,6 @@ footer {
     color: var(--white);
 }
 
-
-/* Animations */
 @keyframes bounce {
     0%,20%,50%,80%,100% {
         transform: translate3d(0, 0, 0);
@@ -289,4 +288,4 @@ footer {
     60% {
         transform: translate3d(0, -10px, 0);
     }
-}
+} 
