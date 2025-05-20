@@ -1,15 +1,18 @@
 {
   "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
     "core-js": "^3.42.0",
     "parcel": "^2.15.0",
-    "regenerator-runtime": "^0.14.1"
+    "regenerator-runtime": "^0.14.1",
+    "tailwindcss": "^4.1.7"
   },
   "name": "dune-africa",
   "description": "This is the Official website for Dune Africa",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build ./src/index.html"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "tailwind": "npx @tailwindcss/cli -i ./src/index-input.css -o ./src/output.css --watch"
   },
   "author": "Uche Ofatu",
   "license": "ISC",
